@@ -1,0 +1,17 @@
+com\multi\sample\persistence\service\sample\SampleService.class
+com\multi\sample\persistence\config\CustomPhysicalNameStrategy.class
+com\multi\sample\persistence\models\aspect\SessionHist.class
+com\multi\sample\persistence\models\sample\Sample.class
+com\multi\sample\persistence\models\common\BaseEntity.class
+com\multi\sample\persistence\service\aspect\SessionHistService.class
+com\multi\sample\persistence\config\PersistenceConfig.class
+com\multi\sample\persistence\repository\sample\SampleMybatiesRepository.class
+com\multi\Main.class
+com\multi\sample\persistence\repository\aspect\SessionHistRepository.class
+com\multi\sample\persistence\constants\SchemaConstants.class
+com\multi\sample\persistence\service\aspect\SessionHistServiceImpl.class
+com\multi\sample\persistence\service\common\BaseService.class
+com\multi\sample\persistence\service\sample\SampleServiceImpl.class
+com\multi\sample\persistence\models\common\AuditableEntity.class
+com\multi\sample\persistence\repository\sample\SampleRepository.class
+com\multi\sample\persistence\service\common\BaseServiceImpl.class

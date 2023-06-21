@@ -1,0 +1,7 @@
+### Languege Change
+POST http://127.0.0.1:8080/common/changeLanguage
+Content-Type: application/json
+
+{
+  "changeLanguage" : "ko"
+}
