@@ -19,5 +19,6 @@ public class DateTimeUtilTest {
         String format = "yyyy-MM-dd HH:mm:ss";
         LOG.debug(DateTimeUtil.getChangeTimeZone("2023-06-15 17:28:30", format, "Asia/Seoul", "UTC"));
         LOG.debug(DateTimeUtil.getChangeOffset(LocalDateTime.now(), 9, 7).toString());
+        LOG.debug("####");
     }
 }
