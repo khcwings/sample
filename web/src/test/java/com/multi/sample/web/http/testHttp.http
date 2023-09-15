@@ -5,3 +5,28 @@ Content-Type: application/json
 {
   "changeLanguage" : "ko"
 }
+
+
+### Redis User Session Create
+POST http://127.0.0.1:8080/sample/createSession
+Content-Type: application/json
+
+{
+  "preFix" : "test"
+}
+
+### Redis User Session Get
+POST http://127.0.0.1:8080/sample/getUserSession
+Content-Type: application/json
+
+{
+  "sessionKey" : "test_9f248151730d4df3b555125c2df344e3"
+}
+
+### Redis User Session remove
+POST http://127.0.0.1:8080/sample/removeUserSession
+Content-Type: application/json
+
+{
+  "sessionKey" : "test_9f248151730d4df3b555125c2df344e3"
+}
