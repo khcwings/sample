@@ -1,0 +1,2 @@
+@ Postgre Sql Admin
+  - pw : 희철 기본 - 느낌표 없이.
